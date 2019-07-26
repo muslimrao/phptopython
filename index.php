@@ -1,7 +1,6 @@
 <?php
 
-echo '"fulfillmentMessages": [
-      {
+echo '{
         "quickReplies": {
           "title": "What services do you need... ?",
           "quickReplies": [
@@ -17,6 +16,5 @@ echo '"fulfillmentMessages": [
             "Any specific service you want ? (Yes / No)"
           ]
         }
-      }
-    ]';
+      }';
 ?>
