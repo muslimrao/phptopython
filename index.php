@@ -1,8 +1,9 @@
 <?php
 
-echo '{
+echo '{"fulfillmentMessages": [
+      {
         "quickReplies": {
-          "title": "What services do you need... ?",
+          "title": "Do you need any services?",
           "quickReplies": [
             "Yes",
             "No"
@@ -13,8 +14,9 @@ echo '{
       {
         "text": {
           "text": [
-            "Any specific service you want ? (Yes / No)"
+            "Perfect - What services you need."
           ]
         }
-      }';
+      }
+    ]}';
 ?>
